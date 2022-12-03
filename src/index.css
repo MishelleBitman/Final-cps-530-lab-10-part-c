@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #ADD8E6;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  font-size: 55px;
+  color: palevioletred;
+  font-family: 'Myriad Pro Regular';
+  font-style:italic;
+  font-weight: bold;
+  src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+
+}
+.text {
+  float: left;
+  font-size: 35px;
+  color: white;
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+.pic {
+  width: 55%;
 }
